@@ -1,0 +1,15 @@
+{
+    "data": {
+        "personalInfo": {
+            "name": "Kalina Georgieva",
+            "picture": "http://bootdey.com/img/Content/user_1.jpg",
+            "homeTown": "Montana",
+            "university": "Sofia University",
+            "birthDay": "29.04",
+            "followers": 256,
+            "following": 34
+        },           
+        "followers": [],
+        "following": []
+    }
+}

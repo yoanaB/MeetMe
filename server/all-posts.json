@@ -1,0 +1,21 @@
+{
+    "data": {
+         "posts": [{
+            "id": 1,
+            "author": "Kalina Georgieva",                
+            "userPicture": "http://bootdey.com/img/Content/user_1.jpg", 
+            "msg":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "timestamp": 1494186402819,
+            "likes": 23,
+            "comments": []
+        }, {
+            "id": 2,
+            "author": "Kalina Georgieva",                
+            "userPicture": "http://bootdey.com/img/Content/user_1.jpg", 
+            "msg":"Dolorem sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "timestamp": 1494186402819,
+            "likes": 23,
+            "comments": []
+        }]
+    }
+}
