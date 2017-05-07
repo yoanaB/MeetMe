@@ -1,0 +1,23 @@
+#profile-personal-info {
+    margin-top: 20px;
+    margin-right: 45px;
+    font-size: 20px;
+    border: 1px solid #BCBCBC;
+    border-radius: 5px;
+}
+
+#profile-personal-info ul {
+    margin: 0;
+    padding: 0;
+}
+
+#profile-personal-info li {
+    list-style-type: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#profile-personal-info span {
+    margin-right: 15px;
+    color: #939393
+}

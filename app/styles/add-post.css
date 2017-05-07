@@ -1,0 +1,22 @@
+.add-new-post-container {
+    font-family: Lato;
+    margin-top: 20px;
+}
+
+.add-new-post-textarea {
+    font-size:20px;
+    resize: none;
+    padding: 20px;
+    height: 130px;
+    width: 100%;
+    border: 1px solid #BCBCBC;
+}
+
+.add-new-post-container .panel-info {
+    border-color: #BCBCBC
+}
+
+.add-new-post-container #btn-post-text,
+.add-new-post-container #btn-post-picture {
+    margin-right: 10px;
+} 
