@@ -1,7 +1,6 @@
 import React from 'react';
 
 const UserInfo = (props) => {
-    console.log(props)
     return (
         <div id="user-info-home" className="container">
             <div className="row">
