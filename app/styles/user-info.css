@@ -5,12 +5,12 @@
 #user-info-home .card {
   overflow: hidden;
   position: relative;
-  border: 1px solid #CCC;
+  border: 1px solid #000;
   border-radius: 8px;
   text-align: center;
   padding: 0;
-  background-color: #284c79;
-  color: rgb(136, 172, 217);
+  background-color: rgba(157, 157, 157,0.3);
+  color: #000;
 }
 
 #user-info-home .card .header-bg {

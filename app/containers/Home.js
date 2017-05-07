@@ -37,7 +37,7 @@ class Home extends React.Component {
     render() {
         return ( 
             <div id="app-page"> 
-                <UserInfo info={this.state.userInfo} />
+                <UserInfo info={this.state.userInfo}/>
                 <Posts posts={this.state.posts}/>
             </div>
             
