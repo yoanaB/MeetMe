@@ -7,7 +7,7 @@ const UserInfo = (props) => {
                 <div className="card">
                     <div className="header-bg" width="250" height="70" id="header-blur"></div>
                     <div className="avatar">
-                        <img src={props.info.profilePicture} alt="" />
+                        <img src={props.info.picture} alt="" />
                     </div>
                     <div className="content">
                         <p>Followers: {props.info.followers}</p>

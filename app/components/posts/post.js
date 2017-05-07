@@ -13,7 +13,7 @@ const Post = (props) => {
                             <div className="title h5">
                                 <a href="#"><b>{props.author} </b></a>made a post.
                             </div>
-                            <h6 className="text-muted time">{props.timestamp.toLocaleTimeString()}</h6>
+                            <h6 className="text-muted time">{Date(props.timestamp)}</h6>
                         </div>
                     </div> 
                     <div className="post-description"> 

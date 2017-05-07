@@ -2,36 +2,26 @@ import React from 'react'
 import Posts from '../components/posts/posts'
 import UserInfo from '../components/UserInfo/user-info'
 
+import {getUserAccount, getAllPosts} from '../requests/user-info-requests'
+
 class Home extends React.Component {
     constructor(props){
         super(props);
 
         this.state = {
-            posts: [{
-                id: 1,
-                author: "Kalina Georgieva",                
-                userPicture: "http://bootdey.com/img/Content/user_1.jpg", 
-                msg:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                timestamp: new Date(),
-                likes: 23,
-                comments: []
-            }, {
-                id: 2,
-                author: "Kalina Georgieva",                
-                userPicture: "http://bootdey.com/img/Content/user_1.jpg", 
-                msg:"Dolorem sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                timestamp: new Date(),
-                likes: 23,
-                comments: []
-            }],
-            userInfo: {
-                    name: "Kalina Georgieva",
-                    followers: 235,
-                    following: 56,
-                    profilePicture:"http://bootdey.com/img/Content/user_1.jpg"
-                }
-            
+            posts: [],
+            userInfo: {}            
         }
+    }
+
+    componentDidMount() {
+        getUserAccount().then((data) => {
+            this.setState({userInfo: data.data.data.personalInfo})
+        })
+
+        getAllPosts().then((data) => {
+             this.setState({posts: data.data.data.posts})
+        })
     }
 
     render() {
