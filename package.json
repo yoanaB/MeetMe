@@ -1,0 +1,35 @@
+{
+  "name": "meet-me",
+  "version": "1.0.0",
+  "description": "FMI project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoanaB/MeetMe.git"
+  },
+  "author": "Kalina Georgieva & Yoana Boyanova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yoanaB/MeetMe/issues"
+  },
+  "homepage": "https://github.com/yoanaB/MeetMe#readme",
+  "dependencies": {
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "bootstrap": "^3.3.7",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.4",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
+    "redux": "^3.6.0",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
