@@ -1,0 +1,44 @@
+.all-posts {
+    margin-left: 40px;
+    width: 800px;
+}
+
+.all-posts .span-group span {
+    margin-right: 5px;
+}
+
+.all-posts h4 {
+    display: inline-block;
+}
+
+.btn-edit-post, .btn-remove-post{
+    float: right;
+    margin: 0;
+    top: 3px;
+}
+
+.no-posts{
+    text-align: center;
+    font-size: 25px;
+}
+
+#show-status{
+    font-size: 15px;
+}
+
+#show-status span{
+    font-size: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+}
+
+.post-picture, .post-text {
+    float: left;
+}
